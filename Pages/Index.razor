@@ -39,6 +39,6 @@
     }
     public void MarkAsComplete(int index)
     {
-        todos[index].IsComplete = true;
+        todos[index].IsComplete = !todos[index].IsComplete;
     }
 }
