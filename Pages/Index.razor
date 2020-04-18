@@ -25,9 +25,9 @@
 {
     public string todoInput { get; set; }
     List<Todo> todos = new List<Todo>();
-    Todo todo = new Todo();
     public void AddTodo()
     {
+        Todo todo = new Todo();
         todo.Title = todoInput;
         todos.Add(todo);
         todoInput = "";
